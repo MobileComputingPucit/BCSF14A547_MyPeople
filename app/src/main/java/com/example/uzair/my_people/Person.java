@@ -1,0 +1,13 @@
+package com.example.uzair.my_people;
+
+import java.io.Serializable;
+
+
+
+public class Person implements Serializable {
+
+    public int id;
+    public String name;
+    public String gender;
+    public String phone;
+}
